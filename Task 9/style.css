@@ -1,0 +1,34 @@
+.fullwrap {
+	position: relative;
+	width: 560px;
+	height: 450px;
+	background: #80cdc6;
+	margin: 20px auto;	
+}
+
+.clouds {
+	position: absolute;
+	right: 0;
+	width: 340px;
+}
+
+.world {
+	position: absolute;
+	bottom: 15px;
+	width: 560px;	
+}
+
+.wooden-ship {
+	position: absolute;
+	bottom: 40px;
+	left: 18px;
+	z-index: 5;
+	width: 115px;	
+}
+
+.water {
+	position: absolute;
+	bottom: 0;
+	z-index: 10;
+	width: 560px;
+}
